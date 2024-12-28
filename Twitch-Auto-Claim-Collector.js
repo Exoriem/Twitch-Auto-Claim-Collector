@@ -9,9 +9,10 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
-    setInterval(function() {
-        var elements = document.getElementsByClassName('ScCoreButton-sc-ocjdkq-0 ScCoreButtonSuccess-sc-ocjdkq-5 bTXTVH fEpwrH');
-        elements[0].click();
-    }, 5000);
+(function () {
+  setInterval(function () {
+    document
+      .getElementsByClassName("ScCoreButton-sc-ocjdkq-0 hpBkMI")[0]
+      .click();
+  }, 5000);
 })();
